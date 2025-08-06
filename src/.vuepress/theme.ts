@@ -6,9 +6,9 @@ export default hopeTheme({
   hostname: "https://golang.halfiisland.com/",
 
   author: {
-    name: "寒江蓑笠翁",
-    url: "https://246859.github.io/",
-    email: "2633565580@qq.com",
+    name: "Redem-cat",
+    url: "https://github.com/Redem-cat",
+    email: "1323746368@qq.com",
   },
 
   iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
