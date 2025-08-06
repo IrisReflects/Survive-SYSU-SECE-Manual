@@ -1,0 +1,43 @@
+﻿# 一些在线工具
+# 一些在线工具
+
+将会分享我觉得非常有用的一些软件和网页资源，多少节省一点时间，希望对阅读到这里的你有所帮助。
+
+- [ioDraw Diagram Software for Flowchart, Mind Map, Gantt, Whiteboard](https://www.iodraw.com/#google_vignette)  
+- [Canva可画_在线设计协作平台_平面设计作图软件_视觉办公套件 - Canva中文官网](https://www.canva.cn/)  
+- [Bigjpg - AI Super-Resolution lossless image enlarging / upscaling tool using Deep Convolutional Neural Networks](https://bigjpg.com/)  
+- [Flourish | Data Visualization & Storytelling](https://app.flourish.studio/projects)  
+- [Calculator Suite - GeoGebra](https://www.geogebra.org/calculator)  
+- [The AI workspace that works for you. | Notion](https://www.notion.com/)  
+- [在线裁剪 PDF - HiPDF](https://www.hipdf.cn/crop-pdf)  
+- [Convertio — 文件转换器](https://convertio.co/zh/)  
+- [樱之空动漫 - 樱花之空中舞一夜❀动漫在线播放网站・skr.cc](https://www.skr2.cc/)  
+- [Document & Formula OCR Service](https://www.simpletex.cn/ai/latex_ocr)  
+- [Mathpix Snip](https://snip.mathpix.com/home)  
+- [Overleaf LaTeX 模板](https://www.overleaf.com/latex/templates)  
+- [Wolfram Alpha](https://www.wolframalpha.com/)  
+- [SPSSPRO](https://www.spsspro.com/?utm_source=baidu-ss&utm_medium=ppc&utm_term=S3YPHE6NI8&utm_content=desktop)  
+- [LaTeX Studio](https://www.latexstudio.net/)  
+- [Syntax Highlight for Word](http://www.planetb.ca/syntax-highlight-word)  
+- [CNKI 词典](https://dict.cnki.net/index)  
+- [OSHW Hub](https://oshwhub.com/explore?filter=7a7e2ffe306f45d49aceeccf643164f1)  
+- [Maker World](https://makerworld.com.cn/zh)  
+- [LCEDA 编辑器](https://pro.lceda.cn/editor)  
+- [Runoob Python 3 教程](https://www.runoob.com/python3/python3-tutorial.html)  
+- [HF Mirror](https://hf-mirror.com/)  
+- [Quickref](https://quickref.cn/)  
+- [CodeFun](https://codefun2000.com/)  
+- [CSDN 博文](https://blog.csdn.net/qq_50285142/article/details/114026148?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522b6579f307d63c57165d49e22a07b9d81%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=b6579f307d63c57165d49e22a07b9d81&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-114026148-null-null.142^v101^pc_search_result_base7&utm_term=stl&spm=1018.2226.3001.4187)  
+- [Google Scholar](https://scholar.google.com/)  
+- [Kaggle](https://www.kaggle.com/)  
+- [小林编程](https://www.xiaolincoding.com/)  
+- [程序员Carl](https://programmercarl.com/)  
+- [LeetCode 学习计划](https://leetcode.cn/studyplan/top-100-liked/)  
+- [Runoob C++ 教程](https://www.runoob.com/cplusplus/cpp-tutorial.html)  
+- [Bilibili 视频](https://www.bilibili.com/video/BV13U4y1p7kB/?spm_id_from=333.337.search-card.all.click&vd_source=18c4a8ae764173814be996bf31c71324)  
+
+在现在这个版本，AI 已经超越了传统的互联网搜索引擎，善用 GPT、Claude、DeepSeek、元宝、豆包、通义、Kimi 才能跟得上节奏。
+
+一般大厂也有自己的代码 agent，能帮你读代码、梳理逻辑。
+
+找教程记得找最新的，不然很可能被误导。
