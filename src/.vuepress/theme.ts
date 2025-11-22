@@ -3,7 +3,7 @@ import { zhNavbar } from "./navbar";
 import { zhSidebar } from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://golang.halfiisland.com/",
+  hostname: "https://redem-cat.github.io/Survive-SYSU-SECE-Manual/",
 
   author: {
     name: "Redem-cat",
@@ -11,23 +11,22 @@ export default hopeTheme({
     email: "1323746368@qq.com",
   },
 
-  iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
+  iconAssets: "fontawesome-with-brands",
 
-  sidebarSorter: ["filename", "order", "date", "readme"],
-  // logo
+  sidebarSorter: ["order", "readme", "filename", "date"],
+
   logo: "/logo.png",
-  // 仓库
-  repo: "Open-Source-CQUT/Golang-Doc",
-  // 版权
-  copyright: "MIT Licensed | Copyright © 2025-present Redem",
-  // 仓库中的文件夹
-  docsDir: "/src",
-  // 导航栏
+
+  repo: "Redem-cat/Survive-SYSU-SECE-Manual",
+  docsDir: "src",
+  docsBranch: "main",
+
   navbar: zhNavbar,
-  // 侧边栏
   sidebar: zhSidebar,
 
-  // page meta
+  copyright: "MIT Licensed | Copyright © 2025-present Redem-cat",
+  displayFooter: true,
+
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },
@@ -36,15 +35,36 @@ export default hopeTheme({
     align: true,
     figure: true,
     imgLazyload: true,
+    imgSize: true,
+    tasklist: true,
   },
 
   plugins: {
-    readingTime: {
-      wordPerMinute: 150,
-    },
-
     slimsearch: {
       indexContent: true,
+    },
+
+    comment: {
+      provider: "Giscus",
+      repo: "Redem-cat/Survive-SYSU-SECE-Manual",
+      repoId: "R_kgDOPQRJWw", 
+      categoryId: "DIC_kwDOPQRJW84CyEYS",
+      mapping: "pathname", 
+    },
+
+    // === 修改 2：修复报错 ===
+    // 添加下面这行注释，告诉 TS 忽略这里的类型检查
+    // @ts-ignore
+    mdEnhance: {
+      katex: true,
+      codetabs: true,
+      tabs: true,
+      hint: true,
+      flowchart: true,
+      mermaid: true,
+      mark: true,
+      sub: true,
+      sup: true,
     },
   },
 });

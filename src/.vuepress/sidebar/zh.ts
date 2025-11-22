@@ -1,54 +1,59 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
-  "/": [
+
+  "/courses/": [
     {
-      icon: "activity",
-      text: "指南正文",
-      prefix: "essential/",
-      // 没法给目录排序，所以这里只能手动指定顺序
+      text: "学业攻略",
+      icon: "book-open", 
+      link: "/courses/SECE/freshman/", 
       children: [
         {
-          icon: "bit",
-          text: "电通院",
-          prefix: "base/",
+          text: "大一 (Freshman)",
+          icon: "1", 
+          prefix: "SECE/freshman/",
+          collapsible: true, 
+          children: "structure", 
+        },
+        {
+          text: "大二 (Sophomore)",
+          icon: "2",
+          prefix: "SECE/sophomore/",
           collapsible: true,
           children: "structure",
         },
         {
-          icon: "alias",
-          text: "语法进阶",
-          prefix: "senior/",
+          text: "大三 (Junior)",
+          icon: "3",
+          prefix: "SECE/junior/",
           collapsible: true,
           children: "structure",
-        },
-        {
-          icon: "module",
-          text: "标准库",
-          prefix: "std/",
-          collapsible: true,
-          children: "structure",
-        },
-        {
-          icon: "template",
-          text: "实现原理",
-          prefix: "impl/",
-          collapsible: true,
-          children: [
-            { text: "错误处理", prefix: "err/", children: "structure" },
-            { text: "数据结构", prefix: "ds/", children: "structure" },
-            { text: "运行时", prefix: "runtime/", children: "structure" },
-            { text: "并发", prefix: "sync/", children: "structure" },
-            { text: "网络", prefix: "network/", children: "structure" },
-          ],
         },
       ],
     },
+  ],
+
+  "/schools/": [
     {
-      icon: "software",
-      text: "社区生态",
-      prefix: "community/",
-      children: "structure",
+      text: "校园生活指南",
+      icon: "mug-hot", 
+      prefix: "SECE/",
+      link: "/schools/SECE/0.main.md",
+      children: "structure", 
     },
+  ],
+
+
+  "/resources/": [
+    {
+      text: "资源中心",
+      icon: "toolbox",
+      children: "structure", // 自动读取 resources 文件夹下的所有文件
+    },
+  ],
+
+ 
+  "/": [
+    "", // 首页 README.md
   ],
 });
