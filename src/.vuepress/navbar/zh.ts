@@ -58,12 +58,12 @@ export const zhNavbar = navbar([
       },
       { 
         text: "学院官网", 
-        icon: "school", // FA图标: school
+        icon: "school", 
         link: "https://sece.sysu.edu.cn/" 
       },
       { 
         text: "GitHub 仓库", 
-        icon: "github", 
+        icon: "fa-brands fa-github", 
         link: "https://github.com/Redem-cat/Survive-SYSU-SECE-Manual" 
       },
     ],
