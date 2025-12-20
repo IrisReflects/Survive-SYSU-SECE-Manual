@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://redem-cat.github.io/Survive-SYSU-SECE-Manual/sitemap.xml
